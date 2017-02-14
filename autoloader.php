@@ -4,7 +4,7 @@ namespace App;
 spl_autoload_register(function ($class) {
 	// Adapted from <https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md>
 
-	$prj_basedir = __DIR__;
+	$prj_basedir = __DIR__ ;
 
 	$app_prefix = 'App\\';
 	$app_basedir = $prj_basedir . '/app/';
