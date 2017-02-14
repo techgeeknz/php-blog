@@ -1,4 +1,5 @@
 <?php
 namespace App;
 
-require '../autoloader.php';
+require_once '../autoloader.php';
+
